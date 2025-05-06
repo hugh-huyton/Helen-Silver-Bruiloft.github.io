@@ -25,7 +25,7 @@
 
 <!-- <script src="/wp-content/themes/wgalore/themes/sophie/scripts.js" type="text/javascript" defer=""></script> -->
  
- <title>Home &#8211; Bruiloft Chloé &amp; Bas</title>
+ <title>Programma &#8211; Bruiloft Chloé &amp; Bas</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel="alternate" type="application/rss+xml" title="Bruiloft Chloé &amp; Bas &raquo; feed" href="https://chloe.gaantrouwen.nl/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Bruiloft Chloé &amp; Bas &raquo; reactiesfeed" href="https://chloe.gaantrouwen.nl/comments/feed/" />
@@ -65,12 +65,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='chloe-css' href='https://chloe.gaantrouwen.nl/wp-content/themes/wgalore/themes/chloe/style.css' type='text/css' media='all' />
 <script type='text/javascript' src='https://chloe.gaantrouwen.nl/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
 <script type='text/javascript' src='https://chloe.gaantrouwen.nl/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
-<link rel="https://api.w.org/" href="https://chloe.gaantrouwen.nl/wp-json/" /><link rel="alternate" type="application/json" href="https://chloe.gaantrouwen.nl/wp-json/wp/v2/pages/6" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chloe.gaantrouwen.nl/xmlrpc.php?rsd" />
+<link rel="https://api.w.org/" href="https://chloe.gaantrouwen.nl/wp-json/" /><link rel="alternate" type="application/json" href="https://chloe.gaantrouwen.nl/wp-json/wp/v2/pages/7" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chloe.gaantrouwen.nl/xmlrpc.php?rsd" />
 
-<link rel="canonical" href="https://chloe.gaantrouwen.nl/" />
-<link rel='shortlink' href='https://chloe.gaantrouwen.nl/' />
-<link rel="alternate" type="application/json+oembed" href="https://chloe.gaantrouwen.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchloe.gaantrouwen.nl%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://chloe.gaantrouwen.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchloe.gaantrouwen.nl%2F&#038;format=xml" />
+<link rel="canonical" href="https://chloe.gaantrouwen.nl/programma/" />
+<link rel='shortlink' href='https://chloe.gaantrouwen.nl/?p=7' />
+<link rel="alternate" type="application/json+oembed" href="https://chloe.gaantrouwen.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchloe.gaantrouwen.nl%2Fprogramma%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://chloe.gaantrouwen.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchloe.gaantrouwen.nl%2Fprogramma%2F&#038;format=xml" />
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style> 
  <meta name="robots" content="noindex">
  <link rel="icon" href="https://chloe.gaantrouwen.nl/wp-content/themes/wgalore/img/fav-32x32.png" sizes="32x32" />
@@ -86,10 +86,10 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 
 </head>
-<body class="home page-template page-template-template-home page-template-template-home-php page page-id-6 lang-nl_NL site-2324 ">
+<body class="page-template page-template-template-schedule page-template-template-schedule-php page page-id-7 lang-nl_NL site-2324 ">
 	<div id="page" class="site">
 		
-				<header id="masthead" class="site-header with-img">
+				<header id="masthead" class="site-header no-img">
 			<div class="site-branding">
 
 				<h2><a href="/">Chloé & Bas</a></h2>
@@ -100,9 +100,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 
 				<nav id="site-navigation" class="main-navigation">
-					<div id="primary-menu" class="menu"><ul><li class="page_item page-item-6 current_page_item"><a href="https://chloe.gaantrouwen.nl/">Home</a></li>
+					<div id="primary-menu" class="menu"><ul><li class="page_item page-item-6"><a href="https://chloe.gaantrouwen.nl/">Home</a></li>
 <li class="page_item page-item-12"><a href="https://chloe.gaantrouwen.nl/ons-verhaal/">Ons verhaal</a></li>
-<li class="page_item page-item-7"><a href="https://chloe.gaantrouwen.nl/programma/">Programma</a></li>
+<li class="page_item page-item-7 current_page_item"><a href="https://chloe.gaantrouwen.nl/programma/">Programma</a></li>
 <li class="page_item page-item-8"><a href="https://chloe.gaantrouwen.nl/rsvp/">RSVP</a></li>
 <li class="page_item page-item-10"><a href="https://chloe.gaantrouwen.nl/praktische-informatie/">Praktische informatie</a></li>
 <li class="page_item page-item-15"><a href="https://chloe.gaantrouwen.nl/interessante-plaatsen/">Interessante plaatsen</a></li>
@@ -117,74 +117,143 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 		<div id="content" class="site-content">
 
-<div id="primary" class="content-area">
-	<main id="main" class="site-main">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
 
-		
-			<section class='intro with-img '>
-
-									<div class="img-wrap" style="background-image:url(https://weddamo.s3.eu-central-1.amazonaws.com/uploads/sites/2324/2022/04/28134023/james-feaver-pkNZU6DAOmA-unsplash.jpg);background-position:50% 42%;">
-																		<h1>Wij gaan trouwen!</h1>
-											</div>
-					<div class="decoration"></div>
-
-				</section>
-
-
-			
-
-		
-
-		<section class="wedding-couple">
-			<div class="container">
-				<h2 class="name-1 animation-element bride">
-					<span class="first-name">Chloé</span>
-					<span class="last-name">Vermeulen</span>
-				</h2><span class="and animation-element"></span><h2 class="name-2 animation-element groom">
-					<span class="first-name">Bas</span>
-					<span class="last-name">Buitenhuys</span>
-				</h2>
-			</div>
-	<!-- <div class="container">
-		<p class="hashtag"># -->
-						<!-- </p></div> -->
-		</section>
-
-		<section class="stories">
-			<div class="container">
-																						<div class="story">				
-								<div class="story-content">
-																			<div class="content-left">
-											<img src='https://weddamo.s3.eu-central-1.amazonaws.com/uploads/sites/2324/2022/04/28134225/james-feaver-_Rfxb33qoao-unsplash.jpg'>										</div><div class="content-right">
-											<h3 class="heading">Uitnodiging</h3>
-											<p class="sub-heading">Voor onze bruiloft</p>
-											<div class="content-content">
-												<p><p>Het gaat dan toch eindelijk gebeuren, wij gaan trouwen! En deze dag vieren we natuurlijk niet zonder jou! Daarom willen we je van harte uitnodigen voor onze bruiloft!</p>
-<p>Kom je ook? Laat het ons weten door het RSVP-formulier in te vullen. Ook als je er niet bij kunt zijn, vernemen we dat graag. Hopelijk tot snel!</p>
-</p>
-																							</div>
-										</div>
-																	</div>
-							</div>
-																																										
-			</div>
-		</section>
-					<section class="wedding-date">
-				<div class="container">
-					<div class="countdown-wrapper">
-						<div id="countdown" data-date="Aug 6, 2025 00:00:00">
-
-							<div id="cd-days"></div><div id="cd-hours"></div><div id="cd-minutes"></div><div id="cd-seconds"></div>
-						</div>
-						<p id="cd-date">
-							 6 augustus 2025														</p>
-					</div>
-					<div class="countdown-deco"></div>
-				</div>
-
-			</section>
+		<section class="title-section">
+	<div class="container">
+		<h1>Programma</h1>
 				
-				<section id="ceremoniemeesters" class='footer no-img count-1'>
+		<p></p>	</div>
+</section>
+
+</section>
+
+<section class="events">
+	<div class="container">
+
+									<div class="story">				
+					<div class="story-content">
+
+													<div class="content-left">
+								<img src='https://demo.gaantrouwen.nl/wp-content/uploads/sites/116/2019/12/Opening-Huis-de-Salentein-270-2000x1333-1.jpg'>							</div><div class="content-right">
+																<h3 class="heading event-title">Ceremonie</h3>
+																	<p class="sub-heading event-date">10 september '21</p>
+																									<p class="sub-heading event-time">14:00</p>
+																<div class="content-content">
+									<p class="event-description">Het officiële deel van de bruiloft, maar vooral: de ringen!</p>
+																			<div class="event-location">
+											<h5 class="location-title">Landgoed Salentijn</h5>
+											<p class="event-address">Putterstraatweg 5-9</p>
+											<p class="event-address2">3862 RA Nijkerk</p>
+																							<a class="btn" target="_blank" title="Open in Google Maps" href="https://www.google.nl/maps/search/Putterstraatweg+5-9+3862+RA+Nijkerk">Kaart</a>
+																					</div>
+																		
+								</div>
+							</div>
+						
+
+						
+						
+						
+						
+					</div>
+				</div>
+												<div class="story">				
+					<div class="story-content">
+
+													<div class="content-left">
+								<img src='https://demo.gaantrouwen.nl/wp-content/uploads/sites/116/2020/07/tikkho-maciel-6cER36ldcDQ-unsplash.jpg'>							</div><div class="content-right">
+																	<div class="icon-wrap">
+
+										<img class='icon champagne.svg' src='https://chloe.gaantrouwen.nl/wp-content/themes/wgalore/img/icons/svg/champagne.svg'>									</div>
+																<h3 class="heading event-title">Receptie en toost</h3>
+																	<p class="sub-heading event-date">10 september '21</p>
+																									<p class="sub-heading event-time">15:30</p>
+																<div class="content-content">
+									<p class="event-description">Gelegenheid om het bruidspaar te feliciteren en samen het glas te heffen.</p>
+																			<div class="event-location">
+											<h5 class="location-title">Het Koelhuis</h5>
+											<p class="event-address">Coenensparkstraat 1</p>
+											<p class="event-address2">7202 AN Zutphen</p>
+																							<a class="btn" target="_blank" title="Open in Google Maps" href="https://www.google.nl/maps/search/Coenensparkstraat+1+7202+AN+Zutphen">Kaart</a>
+																					</div>
+																		
+								</div>
+							</div>
+						
+
+						
+						
+						
+						
+					</div>
+				</div>
+												<div class="story">				
+					<div class="story-content">
+
+													<div class="content-left">
+								<img src='https://demo.gaantrouwen.nl/wp-content/uploads/sites/116/2020/07/stella-de-smit-sFHlUfyc23M-unsplash.jpg'>							</div><div class="content-right">
+																	<div class="icon-wrap">
+
+										<img class='icon food.svg' src='https://chloe.gaantrouwen.nl/wp-content/themes/wgalore/img/icons/svg/food.svg'>									</div>
+																<h3 class="heading event-title">Diner</h3>
+																	<p class="sub-heading event-date">10 september '21</p>
+																									<p class="sub-heading event-time">18:30</p>
+																<div class="content-content">
+									<p class="event-description">Chef Ronald heeft iets speciaals voor ons in petto, dat wordt genieten!</p>
+																			<div class="event-location">
+											<h5 class="location-title">Kasteel Engelenburg</h5>
+											<p class="event-address">Eerbeekseweg 6</p>
+											<p class="event-address2">6971 LB Brummen</p>
+																							<a class="btn" target="_blank" title="Open in Google Maps" href="https://www.google.nl/maps/search/Eerbeekseweg+6+6971+LB+Brummen">Kaart</a>
+																					</div>
+																		
+								</div>
+							</div>
+						
+
+						
+						
+						
+						
+					</div>
+				</div>
+												<div class="story">				
+					<div class="story-content">
+
+													<div class="content-left">
+								<img src='https://demo.gaantrouwen.nl/wp-content/uploads/sites/116/2020/07/mitchell-orr-LyFIjXoFY-unsplash.jpg'>							</div><div class="content-right">
+																	<div class="icon-wrap">
+
+										<img class='icon acts.svg' src='https://chloe.gaantrouwen.nl/wp-content/themes/wgalore/img/icons/svg/acts.svg'>									</div>
+																<h3 class="heading event-title">Feest</h3>
+																	<p class="sub-heading event-date">10 september '21</p>
+																									<p class="sub-heading event-time">20:45</p>
+																<div class="content-content">
+									<p class="event-description">Voetjes van de vloer met DJ Subdubb!</p>
+																			<div class="event-location">
+											<h5 class="location-title">Kasteel Engelenburg</h5>
+											<p class="event-address">Eerbeekseweg 6</p>
+											<p class="event-address2">6971 LB Brummen</p>
+																							<a class="btn" target="_blank" title="Open in Google Maps" href="https://www.google.nl/maps/search/Eerbeekseweg+6+6971+LB+Brummen">Kaart</a>
+																					</div>
+																		
+								</div>
+							</div>
+						
+
+						
+						
+						
+						
+					</div>
+				</div>
+					
+	</div>
+</section>
+
+		<section id="ceremoniemeesters" class='footer no-img count-1'>
 			<div class="container">
 				<div class='cm-header-wrap'>
 					<h2>
@@ -198,8 +267,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		
 	
 
-	</main><!-- #main -->
-</div><!-- #primary -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
 
 <!-- #page -->
 
