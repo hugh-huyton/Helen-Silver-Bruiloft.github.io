@@ -1,15 +1,16 @@
 $(document).ready(function() {
   let clock;
-
+  
   // Grab the current date
   let currentDate = new Date();
-
+  
   // Target future date/24 hour time/Timezone
   let targetDate = moment.tz("2026-06-21 12:00", "Europe/Amsterdam");
-
+  
   // Calculate the difference in seconds between the future and current date
-  let diff = targetDate / 1000 - currentDate.getTime() / 1000;
-
+  // Fix: Use valueOf() or unix() * 1000 to get timestamp from moment object
+  let diff = targetDate.valueOf() / 1000 - currentDate.getTime() / 1000;
+  
   if (diff <= 0) {
     // If remaining countdown is 0
     clock = $(".clock").FlipClock(0, {
@@ -17,8 +18,7 @@ $(document).ready(function() {
       countdown: true,
       autostart: false
     });
-    console.log("Date has already passed!")
-    
+    console.log("Date has already passed!");
   } else {
     // Run countdown timer
     clock = $(".clock").FlipClock(diff, {
