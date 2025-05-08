@@ -90,6 +90,83 @@
 		.flipTimebox, .clock-fix {
 			background-color: transparent !important;
 		}
+		
+		/* Fix for mobile centering issues */
+		.display-tc {
+			text-align: center;
+			width: 100%;
+		}
+		
+		.display-tc img {
+			max-width: 100%;
+			height: auto;
+			margin: 0 auto;
+			display: block;
+		}
+		
+		/* Fix for menu hamburger color */
+		.fh5co-nav .menu-1 .navbar-toggle {
+			color: #555555;
+		}
+		
+		/* Fix for timer labels */
+		.flip-clock-label {
+			color: #555555 !important;
+		}
+		
+		/* Make sure hamburger menu is visible */
+		.navbar-toggle {
+			border-color: #555555;
+		}
+		
+		.navbar-toggle .icon-bar {
+			background-color: #555555;
+		}
+		
+		/* Center content on mobile */
+		@media screen and (max-width: 768px) {
+			.col-md-8.col-md-offset-2 {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			
+			.display-tc h1,
+			.display-tc h2 {
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			/* Fix for FlipClock on mobile */
+			.flipTimebox {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				margin: 20px auto;
+			}
+			
+			.clock {
+				margin: 0 auto !important;
+				display: inline-block !important;
+			}
+		}
+		
+		/* Additional fix for hamburger menu */
+		.navbar-header {
+			float: right;
+		}
+		
+		.col-xs-10.text-right.menu-1 {
+			width: 100%;
+		}
+		
+		/* Footer credit styling */
+		.site-credit {
+			text-align: center;
+			padding: 10px 0;
+			color: #555555;
+			font-size: 14px;
+		}
 	</style>
 	</head>
 	<body>
@@ -100,19 +177,28 @@
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
-	
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li class="active"><a href="index.html" style="color: #555555;">Home</a></li>
-						<li class="active"><a href="#fh5co-event" style="color: #555555;">Events</a></li>
-						<li class="active"><a href="#fh5co-gallery" style="color: #555555;">Gallery</a></li>
-						<li class="active"><a href="#fh5co-services" style="color: #555555;">Highlights</a></li>
-					</ul>
+				<div class="col-xs-12 text-right menu-1">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="navbar-collapse">
+						<ul>
+							<li class="active"><a href="index.html" style="color: #555555;">Home</a></li>
+							<li><a href="#fh5co-event" style="color: #555555;">Events</a></li>
+							<li><a href="#fh5co-gallery" style="color: #555555;">Gallery</a></li>
+							<li><a href="#fh5co-services" style="color: #555555;">Highlights</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			
 		</div>
 	</nav>
+
 	<header id="fh5co-header" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -126,14 +212,15 @@
 							<h2 style="color: #555555;">Cháteau Barrinques<br>Lamotte du-Rhone, Frankrijk</h2>
 							<div class="flipTimebox">
 								<div class="clock clock-fix"></div>
-							  </div>
-							  <p><a href="#rsvp" class="btn btn-default btn-sm" style="color: #555555;">RSVP</a></p>
+							</div>
+							<p><a href="#rsvp" class="btn btn-default btn-sm" style="color: #555555;">RSVP</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+
 	<div id="fh5co-event" class="fh5co-bg">
 		<div class="overlay"></div>
 		<div class="container">
@@ -158,8 +245,8 @@
 										<span style="color: #555555;">12:00 PM</span>
 									</div>
 									<p style="color: #555555;">At <b>Cháteau Barrinques, Lamotte du-Rhone, Frankrijk</b></p>
-									<!-- Replace with correct map embed -->
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.673315773661!2d75.71257847590881!3d11.927808088299846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba5cd2b69442ebf%3A0x41b4e77a403a15b4!2sDe%20Paul%20Church%2C%20Edathotty!5e0!3m2!1sen!2sin!4v1696094112600!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									<!-- Update with correct map embed -->
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.442382326393!2d4.830594876228784!3d44.462171403817206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5599b2f9e2f5b%3A0x461b4eca8d149ab7!2sLamotte-du-Rh%C3%B4ne%2C%20France!5e0!3m2!1sen!2sus!4v1714934405367!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
@@ -174,8 +261,8 @@
 										<span style="color: #555555;">14:00 PM</span>
 									</div>
 									<p style="color: #555555;">At <b>Cháteau Barrinques, Lamotte du-Rhone, Frankrijk</b></p>
-									<!-- Replace with correct map embed -->
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.690238117892!2d76.24293817588756!3d10.124421489987455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0810402ea732f5%3A0x7e23209bf83c2a9b!2sSt.Antony&#39;s%20Roman%20Catholic%20Church!5e0!3m2!1sen!2sin!4v1696094216568!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									<!-- Same location as ceremony -->
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.442382326393!2d4.830594876228784!3d44.462171403817206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5599b2f9e2f5b%3A0x461b4eca8d149ab7!2sLamotte-du-Rh%C3%B4ne%2C%20France!5e0!3m2!1sen!2sus!4v1714934405367!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								</div>
 							</div>
 						</div>
@@ -184,6 +271,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="fh5co-gallery" class="fh5co-section-gray">
 		<div class="container">
 			<div class="row">
@@ -194,52 +282,88 @@
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-gallery-list">
-						
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/RS1.jpg); "> 
-						<a href="images/RS1.jpg">
-							<div class="case-studies-summary">
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/RS2.jpg); "> 
-						<a href="images/RS2.jpg">
-							<div class="case-studies-summary">
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/RS3.jpg); "> 
-						<a href="images/RS3.jpg">
-							<div class="case-studies-summary">
-							</div>
-						</a>
-					</li>
-					
+							<a href="images/RS1.jpg">
+								<div class="case-studies-summary"></div>
+							</a>
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/RS2.jpg); "> 
+							<a href="images/RS2.jpg">
+								<div class="case-studies-summary"></div>
+							</a>
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/RS3.jpg); "> 
+							<a href="images/RS3.jpg">
+								<div class="case-studies-summary"></div>
+							</a>
+						</li>
 					</ul>		
 				</div>
 			</div>
 		</div>
 	</div>
+
 	<div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
-			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2 style="color: #555555;">Highlights</h2>
 				</div>
 			</div>
-				<div class="container animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="#" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
-					</div>
+			<div class="container animate-box">
+				<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
+					<a href="#" class="popup-vimeo"><i class="icon-video2"></i></a>
+					<div class="overlay"></div>
 				</div>
 			</div>
-			
 		</div>
 	</div>
+
+	<div id="rsvp" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 style="color: #555555;">RSVP</h2>
+					<p style="color: #555555;">Please let us know if you can join us on our special day</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-10 col-md-offset-1">
+					<form class="form-inline">
+						<div class="col-md-6 col-sm-6">
+							<div class="form-group">
+								<input type="name" class="form-control" id="name" placeholder="Name">
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12">
+							<div class="form-group">
+								<textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12">
+							<div class="form-group">
+								<input type="submit" value="Send RSVP" class="btn btn-default btn-block" style="color: #555555;">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="site-credit">
+		<p>hugh-huyton.github.io</p>
+	</footer>
+
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up" style="color: #555555;"></i></a>
 	</div>
+	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
     <!-- clock -->
@@ -262,8 +386,6 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
-	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	</body>
