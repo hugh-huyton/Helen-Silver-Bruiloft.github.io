@@ -8,7 +8,6 @@ $(document).ready(function() {
   let targetDate = moment.tz("2026-06-21 12:00", "Europe/Amsterdam");
   
   // Calculate the difference in seconds between the future and current date
-  // Fix: Use valueOf() or unix() * 1000 to get timestamp from moment object
   let diff = targetDate.valueOf() / 1000 - currentDate.getTime() / 1000;
   
   if (diff <= 0) {
