@@ -88,6 +88,8 @@
 		.event-wrap {
 			background-color: #F4E9CB;
 			border-color: #555555;
+			margin: 0 auto 20px;
+			max-width: 90%;
 		}
 		.btn-default {
 			background-color: #F4E9CB;
@@ -136,6 +138,36 @@
 				width: 100%;
 				margin-left: auto;
 				margin-right: auto;
+			}
+			
+			.event-wrap {
+				margin-bottom: 20px;
+			}
+			
+			.navbar-collapse.collapse.in {
+				display: block !important;
+			}
+			
+			.navbar-collapse.collapse {
+				display: none !important;
+			}
+			
+			.navbar-toggle {
+				display: block;
+			}
+			
+			#navbar-collapse ul {
+				margin-top: 20px;
+			}
+			
+			#navbar-collapse ul li {
+				margin: 10px 0;
+			}
+			
+			.navbar-nav > li {
+				float: none;
+				display: block;
+				text-align: center;
 			}
 		}
 		
@@ -285,9 +317,23 @@
 		
 		.venue-info {
 			margin-top: 30px;
+			margin-bottom: 50px; /* Added more space here */
 			font-family: 'Burford Rustic Line Bold', sans-serif;
 		}
 		
+		/* Additional styling for map */
+		.map-container {
+			width: 100%;
+			max-width: 300px;
+			margin: 0 auto;
+		}
+		
+		.map-container iframe {
+			width: 100%;
+			height: 200px;
+		}
+		
+		/* Improved mobile menu */
 		@media (max-width: 768px) {
 			#navbar-collapse ul {
 				flex-direction: column;
@@ -295,6 +341,24 @@
 			
 			.countdown-item {
 				margin: 10px;
+			}
+			
+			.event-wrap {
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.main-title {
+				font-size: 48px;
+			}
+			
+			.secondary-title {
+				font-size: 32px;
+			}
+			
+			.section-title {
+				font-size: 40px;
 			}
 		}
 	</style>
@@ -318,10 +382,10 @@
 					</div>
 					<div class="collapse navbar-collapse" id="navbar-collapse">
 						<ul>
-							<li class="active"><a href="index.html" style="color: #555555;">Home</a></li>
+							<li class="active"><a href="#page" style="color: #555555;">Home</a></li>
 							<li><a href="#fh5co-event" style="color: #555555;">Evenementen</a></li>
 							<li><a href="#fh5co-gallery" style="color: #555555;">Galerij</a></li>
-							<li><a href="#fh5co-services" style="color: #555555;">Hoogtepunten</a></li>
+							<li><a href="#rsvp" style="color: #555555;">RSVP</a></li>
 						</ul>
 					</div>
 				</div>
@@ -366,7 +430,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2 class="section-title" style="color: #555555;">Evenementen</h2>
+					<h2 class="main-title" style="color: #555555;">Evenementen</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -385,8 +449,10 @@
 										<span style="color: #555555;">12:00</span>
 									</div>
 									<p style="color: #555555;">Bij <b>Château Barrinques, Lamotte du-Rhone, Frankrijk</b></p>
-									<!-- Update with correct map embed -->
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.442382326393!2d4.830594876228784!3d44.462171403817206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5599b2f9e2f5b%3A0x461b4eca8d149ab7!2sLamotte-du-Rh%C3%B4ne%2C%20France!5e0!3m2!1sen!2sus!4v1714934405367!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									<!-- Updated map embed -->
+									<div class="map-container">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2856.1922343810716!2d4.670546710937218!3d44.285435311191684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5a092c9ba68bd%3A0x9cd9b45ca4bb0434!2sCastle%20Barrenques!5e0!3m2!1sen!2ses!4v1746718533218!5m2!1sen!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									</div>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
@@ -401,8 +467,10 @@
 										<span style="color: #555555;">14:00</span>
 									</div>
 									<p style="color: #555555;">Bij <b>Château Barrinques, Lamotte du-Rhone, Frankrijk</b></p>
-									<!-- Same location as ceremony -->
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.442382326393!2d4.830594876228784!3d44.462171403817206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5599b2f9e2f5b%3A0x461b4eca8d149ab7!2sLamotte-du-Rh%C3%B4ne%2C%20France!5e0!3m2!1sen!2sus!4v1714934405367!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									<!-- Updated map embed -->
+									<div class="map-container">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2856.1922343810716!2d4.670546710937218!3d44.285435311191684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5a092c9ba68bd%3A0x9cd9b45ca4bb0434!2sCastle%20Barrenques!5e0!3m2!1sen!2ses!4v1746718533218!5m2!1sen!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -415,7 +483,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2 class="section-title" style="color: #555555;">Galerij</h2>
+					<h2 class="main-title" style="color: #555555;">Galerij</h2>
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md">
@@ -441,26 +509,11 @@
 			</div>
 		</div>
 	</div>
-	<div id="fh5co-services" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2 class="section-title" style="color: #555555;">Hoogtepunten</h2>
-				</div>
-			</div>
-			<div class="container animate-box">
-				<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-					<a href="#" class="popup-vimeo"><i class="icon-video2"></i></a>
-					<div class="overlay"></div>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div id="rsvp" class="fh5co-section-gray">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2 class="section-title" style="color: #555555;">RSVP</h2>
+					<h2 class="main-title" style="color: #555555;">RSVP</h2>
 					<p style="color: #555555;">Laat ons weten of je aanwezig kunt zijn op onze speciale dag</p>
 				</div>
 			</div>
@@ -520,5 +573,17 @@
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	
+	<!-- Fix for mobile menu functionality -->
+	<script>
+		$(document).ready(function() {
+			// Make sure the navbar links close the menu when clicked on mobile
+			$('#navbar-collapse ul li a').click(function() {
+				if ($(window).width() < 768) {
+					$('#navbar-collapse').collapse('hide');
+				}
+			});
+		});
+	</script>
 	</body>
 </html>
